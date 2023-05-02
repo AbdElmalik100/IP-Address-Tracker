@@ -46,7 +46,7 @@
         <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base" name="OpenStreetMap"
           class="p-5"></LTileLayer>
         <LMarker :lat-lng="[ipOutput.location.lat, ipOutput.location.lng]">
-          <LIcon icon-url="/images/icon-location.svg" :icon-size="[30, 30 * 1.15]"
+          <LIcon icon-url="./images/icon-location.svg" :icon-size="[30, 30 * 1.15]"
             :icon-anchor="[30 / 2, 30 * 1.15]"></LIcon>
         </LMarker>
       </LMap>
